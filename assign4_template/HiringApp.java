@@ -137,6 +137,7 @@ public class HiringApp {
     	    }
 
     	 Person firedEmployee = currentEmployees.poll();
+        oldEmployees.push(firedEmployee);
     	 System.out.println("Fired employee: " + firedEmployee);
     	   
     }
